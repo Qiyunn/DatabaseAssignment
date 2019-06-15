@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_top_parent"
+        android:id="@+id/button_insert"
+        android:text="@string/burron_insert"
+        android:background="@color/colorPrimary"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content" />
+    <Button
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_gravity="center"
+        android:id="@+id/button_update"
+        android:text="@string/button_update"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content" />
+    <Button
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_gravity="center"
+        android:id="@+id/button_delete"
+        android:text="@string/button_delete"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

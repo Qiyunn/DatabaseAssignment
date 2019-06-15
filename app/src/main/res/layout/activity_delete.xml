@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="@dimen/margin_top_parent"
+        android:id="@+id/text_view_insert"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_delete"
+        android:layout_gravity="center"
+        android:textSize="@dimen/text_size"/>
+    <EditText
+        android:id="@+id/edit_text_id"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/edit_text_width"
+        android:layout_height="wrap_content"
+        android:hint="put id here"/>
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/button_submit"/>
+
+
+</LinearLayout>

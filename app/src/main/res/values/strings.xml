@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DatabaseAssignment</string>
+    <string name="burron_insert">insert</string>
+    <string name="button_update">update</string>
+    <string name="button_delete">delete</string>
+    <string name="button_submit">submit</string>
+</resources>
